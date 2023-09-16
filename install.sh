@@ -140,7 +140,7 @@ install_V2bX() {
     cp geoip.dat /etc/V2bX/
     cp geosite.dat /etc/V2bX/
 
-    if [[ ! -f /etc/V2bX/config.yml ]]; then
+    if [[ ! -f /etc/V2bX/config.json ]]; then
         cp config.json /etc/V2bX/
         echo -e ""
         echo -e "全新安装，请先参看教程：https://github.com/InazumaV/V2bX，配置必要的内容"
