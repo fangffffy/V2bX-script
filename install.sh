@@ -130,7 +130,7 @@ install_V2bX() {
     chmod +x V2bX
     mkdir /etc/V2bX/ -p
     rm /etc/systemd/system/V2bX.service -f
-    file="https://github.com/fangffffy/V2bX-script/raw/master/V2bX.service"
+    file="https://github.com/InazumaV/V2bX-script/raw/master/V2bX.service"
     wget -q -N --no-check-certificate -O /etc/systemd/system/V2bX.service ${file}
     #cp -f V2bX.service /etc/systemd/system/
     systemctl daemon-reload
